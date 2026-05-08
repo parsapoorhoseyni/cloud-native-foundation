@@ -84,6 +84,15 @@
 
 ---
 
+# Added — SQL Fundamentals
+- [ ] SELECT
+- [ ] JOIN
+- [ ] GROUP BY
+- [ ] COUNT
+- [ ] FILTER
+
+---
+
 # 🔧 Week 9 — Git & CI/CD Basics
 - [ ] Git workflow  
 - [ ] Branching strategies  
