@@ -40,13 +40,13 @@
 ---
 
 # 📘 Week 1–2 — Linux Fundamentals
-- [ ] Linux installation & distributions  
-- [ ] Users and groups  
-- [ ] File systems & permissions  
-- [ ] Process control  
-- [ ] systemd basics  
-- [ ] Service management  
-- [ ] Logging basics (journalctl)
+- [x] Linux installation & distributions  
+- [x] Users and groups  
+- [x] File systems & permissions  
+- [x] Process control  
+- [x] systemd basics  
+- [x] Service management  
+- [x] Logging basics (journalctl)
 
 ---
 
@@ -94,13 +94,13 @@
 ---
 
 # 🔧 Week 9 — Git & CI/CD Basics
-- [ ] Git workflow  
-- [ ] Branching strategies  
-- [ ] Merge vs rebase  
-- [ ] Conflict solving  
-- [ ] Pull requests  
-- [ ] GitHub Actions  
-- [ ] GitLab CI  
+- [x] Git workflow  
+- [x] Branching strategies  
+- [x] Merge vs rebase  
+- [x] Conflict solving  
+- [x] Pull requests  
+- [x] GitHub Actions  
+- [x] GitLab CI  
 
 ---
 
