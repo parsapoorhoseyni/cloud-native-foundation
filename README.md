@@ -62,10 +62,10 @@
 ---
 
 # 📡 Week 5–6 — Networking for Linux Engineers
-- [ ] TCP/IP fundamentals  
-- [ ] ip command  
-- [ ] ss / netstat  
-- [ ] nc / netcat  
+- [x] TCP/IP fundamentals  
+- [x] ip command  
+- [x] ss / netstat  
+- [x] nc / netcat  
 - [ ] tcpdump basics  
 - [ ] Wireshark basics  
 - [ ] nmap basic  
