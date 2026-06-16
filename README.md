@@ -51,13 +51,13 @@
 ---
 
 # 📗 Week 3–4 — Bash Scripting
-- [ ] Variables  
-- [ ] Conditionals  
-- [ ] Loops  
-- [ ] Functions  
-- [ ] File processing  
-- [ ] Command substitution  
-- [ ] Automation scripts  
+- [x] Variables  
+- [x] Conditionals  
+- [x] Loops  
+- [x] Functions  
+- [x] File processing  
+- [x] Command substitution  
+- [x] Automation scripts  
 
 ---
 
