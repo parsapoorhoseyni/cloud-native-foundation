@@ -66,10 +66,10 @@
 - [x] ip command  
 - [x] ss / netstat  
 - [x] nc / netcat  
-- [ ] tcpdump basics  
-- [ ] Wireshark basics  
-- [ ] nmap basic  
-- [ ] Intro to iptables/nftables  
+- [x] tcpdump basics  
+- [x] Wireshark basics  
+- [x] nmap basic  
+- [x] Intro to iptables/nftables  
 
 ---
 
