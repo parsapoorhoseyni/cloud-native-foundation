@@ -1,237 +1,188 @@
-# 🚀 Cloud‑Native Security Engineer Roadmap  
-### Phase 1 – Generic Foundation (20 Weeks)  
-### by پارسا – Computer Engineer • Future Cloud-Native Security Engineer
+# 🚀 Cloud-Native Security Engineer Roadmap
+
+### by Parsa – Computer Engineer
+
+**Goal:** Become a **Cloud-Native Security Engineer** with strong knowledge of Linux, Kubernetes, Runtime Security, eBPF, Reverse Engineering and Offensive Security.
 
 ---
 
-## 🎯 هدف این فاز
-ایجاد ستون فقرات فنی برای نقش **Cloud-Native Security Engineer / DevSecOps Specialist**  
-تمرکز این فاز: Linux + Bash + Networking + Security Basics + Docker + Kubernetes + Observability + Incident Response
+# 📌 Roadmap Overview
+
+```
+Phase 1
+↓
+Cloud-Native Foundation
+
+Phase 2
+↓
+System Programming & Linux Internals
+
+Phase 3
+↓
+Cloud-Native Engineering
+
+Phase 4
+↓
+Runtime Security & Low-Level Security
+```
 
 ---
 
-## 📈 Progress  
-> برای تیک زدن مراحل، کافی است در GitHub هر مورد را با `- [x]` علامت بزنم.
+# Phase 1 — Cloud-Native Foundation
 
-- **Weeks Completed:** 0 / 20  
-- **Total Tasks:** 150+  
-- **Progress Bar:**  
-![progress](https://progress-bar.dev/0/?scale=100&title=Phase+1+Progress&width=350&color=blue)
+> Goal: Build a solid foundation in Linux, networking, containers, Kubernetes and basic security.
 
----
+## Linux
 
-# 🗂️ جدول محتوا
-- [Week 1–2 — Linux Fundamentals](#week-12--linux-fundamentals)
-- [Week 3–4 — Bash Scripting](#week-34--bash-scripting)
-- [Week 5–6 — Networking for Linux Engineers](#week-56--networking-for-linux-engineers)
-- [Week 7–8 — Security Fundamentals](#week-78--security-fundamentals)
-- [Week 9 — Git & CI/CD Basics](#week-9--git--cicd-basics)
-- [Week 10–11 — Docker Fundamentals](#week-1011--docker-fundamentals)
-- [Week 12 — Kubernetes Fundamentals](#week-12--kubernetes-fundamentals)
-- [Week 13 — Linux Hardening](#week-13--linux-hardening)
-- [Week 14 — Logging & Process Visibility](#week-14--logging--process-visibility)
-- [Week 15 — Host Firewall & Attack Surface Reduction](#week-15--host-firewall--attack-surface-reduction)
-- [Week 16 — Docker Security Basics](#week-16--docker-security-basics)
-- [Week 17 — Kubernetes Operations](#week-17--kubernetes-operations)
-- [Week 18 — Kubernetes Security Basics](#week-18--kubernetes-security-basics)
-- [Week 19 — Observability for Security](#week-19--observability-for-security)
-- [Week 20 — Incident-style Troubleshooting](#week-20--incident-style-troubleshooting)
+* [x] Linux Fundamentals
+* [x] Users & Groups
+* [x] Permissions
+* [x] File Systems
+* [x] Process Management
+* [x] systemd
+* [x] Services
+* [x] journalctl
 
 ---
 
-# 📘 Week 1–2 — Linux Fundamentals
-- [x] Linux installation & distributions  
-- [x] Users and groups  
-- [x] File systems & permissions  
-- [x] Process control  
-- [x] systemd basics  
-- [x] Service management  
-- [x] Logging basics (journalctl)
+## Bash
+
+* [x] Variables
+* [x] Functions
+* [x] Loops
+* [x] Automation
+* [x] grep
+* [x] awk
+* [x] sed
+* [x] Shell scripting
 
 ---
 
-# 📗 Week 3–4 — Bash Scripting
-- [x] Variables  
-- [x] Conditionals  
-- [x] Loops  
-- [x] Functions  
-- [x] File processing  
-- [x] Command substitution  
-- [x] Automation scripts  
+## Networking
+
+* [x] TCP/IP
+* [x] Routing
+* [x] DNS
+* [x] HTTP/HTTPS
+* [x] SSH
+* [x] iproute2
+* [x] tcpdump
+* [x] Wireshark
+* [x] nftables
+* [x] iptables
 
 ---
 
-# 📡 Week 5–6 — Networking for Linux Engineers
-- [x] TCP/IP fundamentals  
-- [x] ip command  
-- [x] ss / netstat  
-- [x] nc / netcat  
-- [x] tcpdump basics  
-- [x] Wireshark basics  
-- [x] nmap basic  
-- [x] Intro to iptables/nftables  
+## Security Fundamentals
+
+* [ ] CIA
+* [ ] Threat Modeling
+* [ ] AAA
+* [ ] Authentication
+* [ ] Authorization
+* [ ] OWASP Top 10
+* [ ] SQL Basics
+* [ ] Web Security Labs
+* [ ] Security Report Writing
 
 ---
 
-# 🔒 Week 7–8 — Security Fundamentals
-- [ ] CIA triad  
-- [ ] AAA (AuthN/AuthZ/Accounting)  
-- [ ] Threat vs vulnerability vs risk  
-- [ ] OWASP Top 10  
-- [ ] DVWA/Juice Shop setup  
-- [ ] Basic web testing  
-- [ ] Writing security reports  
+## Git & CI/CD
+
+* [ ] Git
+* [ ] GitHub
+* [ ] GitLab
+* [ ] GitHub Actions
+* [ ] GitLab CI
+* [ ] CI/CD Concepts
 
 ---
 
-# Added — SQL Fundamentals
-- [ ] SELECT
-- [ ] JOIN
-- [ ] GROUP BY
-- [ ] COUNT
-- [ ] FILTER
+## Docker
+
+* [ ] Docker CLI
+* [ ] Dockerfile
+* [ ] Compose
+* [ ] Networking
+* [ ] Volumes
+* [ ] Images
+* [ ] Registry
 
 ---
 
-# 🔧 Week 9 — Git & CI/CD Basics
-- [x] Git workflow  
-- [x] Branching strategies  
-- [x] Merge vs rebase  
-- [x] Conflict solving  
-- [x] Pull requests  
-- [x] GitHub Actions  
-- [x] GitLab CI  
+## Kubernetes
+
+* [ ] Pods
+* [ ] Deployments
+* [ ] ReplicaSets
+* [ ] Services
+* [ ] ConfigMaps
+* [ ] Secrets
+* [ ] Namespaces
+* [ ] Ingress
+* [ ] kind
 
 ---
 
-# 🐳 Week 10–11 — Docker Fundamentals
-- [ ] Container concepts  
-- [ ] Docker CLI  
-- [ ] Writing Dockerfiles  
-- [ ] Image building  
-- [ ] Docker networking  
-- [ ] Volumes  
-- [ ] Docker Compose  
-- [ ] Multi-service architecture  
+## Linux Hardening
+
+* [ ] SSH
+* [ ] sudo
+* [ ] SUID
+* [ ] Permissions
+* [ ] auditd
+* [ ] Firewall
+* [ ] Logging
 
 ---
 
-# ☸️ Week 12 — Kubernetes Fundamentals
-- [ ] K8s architecture  
-- [ ] Pods  
-- [ ] Deployments  
-- [ ] Services  
-- [ ] ConfigMaps  
-- [ ] Secrets  
-- [ ] Namespaces  
-- [ ] Local cluster setup (kind/minikube)
+## Docker Security
+
+* [ ] Rootless Containers
+* [ ] Capabilities
+* [ ] Privileged Containers
+* [ ] Secure Images
+* [ ] Image Scanning
+* [ ] Isolation
 
 ---
 
-# 🛡️ Week 13 — Linux Hardening
-- [ ] Least privilege  
-- [ ] sudo policy  
-- [ ] SUID/SGID audit  
-- [ ] File permission audit  
-- [ ] SSH hardening  
-- [ ] Disable unnecessary services  
+## Kubernetes Security
+
+* [ ] RBAC
+* [ ] Pod Security
+* [ ] NetworkPolicy
+* [ ] securityContext
+* [ ] Secrets
+* [ ] Admission Controllers
 
 ---
 
-# 🔍 Week 14 — Logging & Process Visibility
-- [ ] journalctl deep dive  
-- [ ] System log analysis  
-- [ ] Process tree understanding  
-- [ ] Suspicious processes  
-- [ ] auditd basics  
-- [ ] Network-bound process audit  
+## Observability
+
+* [ ] Prometheus
+* [ ] Grafana
+* [ ] Logs
+* [ ] Metrics
+* [ ] Alerting
 
 ---
 
-# 🔥 Week 15 — Host Firewall & Attack Surface Reduction
-- [ ] ufw  
-- [ ] firewalld  
-- [ ] Reading iptables rules  
-- [ ] nftables intro  
-- [ ] Exposure analysis  
-- [ ] Attack surface reduction  
+## Incident Response
 
----
+* [ ] Log Analysis
+* [ ] Process Investigation
+* [ ] Container Investigation
+* [ ] Basic Incident Workflow
 
-# 🐳🔐 Week 16 — Docker Security Basics
-- [ ] Root vs non-root containers  
-- [ ] Linux capabilities  
-- [ ] Privileged mode risks  
-- [ ] Secure Dockerfile patterns  
-- [ ] Minimal base images  
-- [ ] Container isolation  
+# 🎯 Final Goal
 
----
+Become a security engineer capable of:
 
-# ☸️🔧 Week 17 — Kubernetes Operations
-- [ ] kubectl debugging  
-- [ ] Logs  
-- [ ] Events  
-- [ ] Rollouts  
-- [ ] Rollbacks  
-- [ ] Namespace ops  
-- [ ] Troubleshooting basics  
-
----
-
-# 🔐 Week 18 — Kubernetes Security Basics
-- [ ] securityContext  
-- [ ] runAsNonRoot  
-- [ ] allowPrivilegeEscalation  
-- [ ] RBAC fundamentals  
-- [ ] Pod Security basics  
-- [ ] Exposure risks  
-
----
-
-# 👀 Week 19 — Observability for Security
-- [ ] Metrics / Logs / Events  
-- [ ] Security-related alerts  
-- [ ] Suspicious patterns  
-- [ ] Simple dashboards  
-- [ ] Container monitoring  
-
----
-
-# ⚠️ Week 20 — Incident‑Style Troubleshooting
-- [ ] Detect suspicious processes  
-- [ ] Analyze container misconfig  
-- [ ] Debug K8s CrashLoopBackOff  
-- [ ] Network exposure investigation  
-- [ ] Basic incident workflow  
-
----
-
-# 📚 Resources
-(اینجا هر منبعی که استفاده می‌کنی را اضافه کن)  
-- Example: Linux Journey  
-- Example: Codecrafters Docker  
-- Example: Kubernetes official docs  
-- Example: OWASP  
-
----
-
-# 📝 Notes
-این بخش برای نکته‌برداری هر روز یا هر هفته است.
-
----
-
-# 🧩 Projects (اختیاری ولی مهم)
-- [ ] ساخت سرور لینوکسی Harden شده  
-- [ ] پیاده‌سازی Docker multi-service  
-- [ ] ساخت mini-cluster با kind  
-- [ ] ساخت GitHub Actions pipeline  
-- [ ] تحلیل یک Incident واقعی  
-
----
-
-# ⭐ هدف بزرگ بعد از این فاز
-رفتن به سمت:  
-**Cloud-Native Security Engineer + eBPF Security + Kubernetes Hardening + Offensive Mindset**
-
----
+* Understanding Linux from kernel to Kubernetes
+* Developing security tools in Go
+* Reading and writing system-level code in C
+* Performing Reverse Engineering
+* Building Runtime Security solutions
+* Securing Kubernetes and Cloud-Native Infrastructure
+* Contributing to Cloud-Native Security open-source projects
